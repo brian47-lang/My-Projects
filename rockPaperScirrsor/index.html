@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+  <meta charset="UTF-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="style.css" /> 
+  <title>RPS</title> 
+</head> 
+<body> 
+  <div id="main"> 
+    <div id="a"> 
+      <h1>Lets play Rock PaPer SciSSors</h1> 
+      <h2>First to 5 wins</h2> 
+    </div> 
+    <div id="input-container"> <!-- New container div -->
+      <div id="b"> 
+        <p id="helloEl">Human vs Ai Who is it gonna be?? </p> 
+        <input id="playerChoice"><br> 
+        <button id="playRound">Play</button><br> 
+      </div> 
+      <div id="aiPickEl"> 
+        <p>Ai Pick</p> 
+        <img id  = "rpsPicEl" src="pic.jpg"> 
+      </div> 
+    </div> 
+    <div id="c"> 
+      <p id="p1">player wins: <span id="Player_Wins"></span></p> 
+      <p id="p2">Ai wins: <span id="Ai_Wins"></span></p> 
+      <p id="p3">Tie: <span id="tieEl"></span></p> 
+      <span id="messageEl"></span> 
+    </div> 
+  </div> 
+  <script src="script.js"></script> 
+</body> 
+</html>

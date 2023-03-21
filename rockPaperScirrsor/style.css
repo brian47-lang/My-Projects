@@ -1,0 +1,188 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Header section styles */
+#a {
+  background-color: #4285f4;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+#a h1 {
+  font-size: 56px;
+  margin-bottom: 20px;
+  text-shadow: 3px 3px #333;
+}
+
+#a h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+  text-shadow: 3px 3px #333;
+}
+
+/* Input section styles */
+#b {
+  background-color: #fff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px #ccc;
+}
+
+#playerChoice {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 2px solid #ccc;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  width: 100%;
+  max-width: 400px;
+}
+
+#playRound {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Score board styles */
+#c {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px #ccc;
+  margin-top: 40px;
+}
+
+#c p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#c p span {
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+/* Message element styles */
+#messageEl {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+/* Image element styles */
+#aiPickEl {
+  text-align: center;
+}
+
+#aiPickEl p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#aiPickEl img {
+  max-width: 250px;
+  max-height: 250px;
+  border-radius: 50%;
+  box-shadow: 5px 5px #ccc;
+}
+#playRound:hover {
+  background-color: #2962ff;
+  cursor: pointer;
+}
+#aiPickEl img {
+  border: 5px solid #4285f4;
+}
+#a h1 {
+  font-family: 'Brush Script MT', cursive;
+}
+#messageEl {
+  background-color: #fff;
+  padding: 10px;
+}
+#playerChoice:focus {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+#c {
+  border: 2px solid #4285f4;
+}
+#aiPickEl p {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #4285f4;
+}
+#aiPickEl {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+#a h1 {
+  text-shadow: 3px 3px #ccc;
+}
+#helloEl {
+  font-size: 28px;
+}
+#c {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px #ccc;
+  margin-top: 40px;
+}
+
+#c p {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#c p span {
+  font-weight: bold;
+  font-size: 36px;
+  margin-left: 10px;
+}
+
+#c p:nth-child(2) {
+  margin-top: 30px;
+}
+
+#c p:last-child {
+  margin-top: 50px;
+}
+
+#c .win {
+  color: green;
+}
+
+#c .lose {
+  color: red;
+}
+
+#c .tie {
+  color: orange;
+}
